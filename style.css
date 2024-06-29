@@ -1,0 +1,137 @@
+
+body{
+    background-color:  hsl(30, 54%, 90%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.container{
+    font-family: "Outfit", sans-serif;
+    width: 50%;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+img{
+    width: 90%;
+    display: block;
+    margin: auto; 
+    border-radius:20px;
+    margin-top: 30px;
+}
+
+.Homepage{
+    margin-left: 30px;
+    width: 90%
+}
+
+.Intro h1{
+    font-weight: 600;
+    font-family: "Young Serif", serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: hsl(24, 5%, 18%);
+}
+
+.Intro p{
+    font-size: 15px;
+}
+
+.Prepp {
+    background-color: rgba(123, 40, 79, 0.1);
+    border-radius: 10px;
+    padding: 5px;
+    line-height: 25px;  
+}
+
+.Prepp p{
+    color: hsl(332, 51%, 32%);
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+    margin-left: 25px;
+}
+
+.Prepp ul{
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+h3{
+    color: hsl(14, 45%, 36%);
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "Young Serif", serif;
+    margin-bottom: 20px;
+}
+
+.Ingredients{
+    font-size: 15px;
+    line-height: 25px;
+}
+.Ingredients ul {
+    padding-inline-start: 0px;
+    margin-left: 20px;
+}
+
+.Instruction {
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.Instruction ol {
+    padding-inline-start: 0px;
+    margin-left: 20px;
+}
+
+.Nutrition{
+    padding: 20px;
+}
+
+.Tab{
+    display: flex;
+    align-items: center;
+    gap: 20vw;
+    font-size: 15px;
+}
+
+.Tab p{
+    width: 20px;
+    margin: 5px
+}
+
+.Tab span{
+    color:hsl(14, 45%, 36%);
+    font-weight: 800;
+}
+
+@media only screen and (max-width: 700px){
+   .body{
+    width: 100%;
+    margin: 0;
+   }
+
+   .container{
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+   }
+
+   img{
+    width: 100%;
+    margin-top: 0;
+    border-radius: 0;
+   }
+
+   .Tab{
+    gap: 30vw;
+   }
+}
+
+
+
+
