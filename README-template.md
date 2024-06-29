@@ -6,7 +6,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 - [Overview]
   - [The challenge]
-  - [Screenshot]
   - [Links]
 - [My process]
   - [Built with]
